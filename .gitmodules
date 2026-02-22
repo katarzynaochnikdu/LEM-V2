@@ -1,0 +1,6 @@
+[submodule "LEM V1"]
+	path = LEM V1
+	url = https://github.com/katarzynaochnikdu/LEM-V1.git
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/katarzynaochnikdu/managerial-compass.git
