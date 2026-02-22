@@ -98,9 +98,9 @@ if (-not $FrontendOnly) {
 # ---------- HEALTH CHECK ----------
 Write-Host "`nHealth check..." -ForegroundColor Cyan
 Start-Sleep -Seconds 3
-ssh $Server "curl -sS http://127.0.0.1:8000/health"
+ssh $Server "curl -sS http://127.0.0.1:8010/health"
 
 Write-Host "`n=== Deploy zakonczony ===" -ForegroundColor Green
-Write-Host "API:      http://100.122.147.29:8000" -ForegroundColor Cyan
-Write-Host "Frontend: http://100.122.147.29:8000" -ForegroundColor Cyan
+Write-Host "API:      http://100.122.147.29:8010" -ForegroundColor Cyan
+Write-Host "Frontend: http://100.122.147.29:8010" -ForegroundColor Cyan
 Write-Host ""
